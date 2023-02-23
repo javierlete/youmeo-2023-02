@@ -1,1 +1,25 @@
-<h1>Funciona</h1>
+<mat-toolbar style="position: sticky; top: 0; z-index: 10" color="primary">
+  <button mat-icon-button>
+    <mat-icon>menu</mat-icon>
+  </button>
+  <span>YouMeo</span>
+  <span style="flex: 1 1 auto;"></span>
+  <button mat-icon-button>
+    <mat-icon>add</mat-icon>
+  </button>
+</mat-toolbar>
+<mat-card *ngFor="let i of [1,2,3,4,5]" class="example-card">
+  <mat-card-header>
+    <mat-card-title-group>
+      <mat-card-title>Shiba Inu</mat-card-title>
+      <mat-card-subtitle>Small</mat-card-subtitle>
+      <img mat-card-sm-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" >
+    </mat-card-title-group>
+  </mat-card-header>
+  <mat-card-content>
+    Texto
+  </mat-card-content>
+</mat-card>
+<button style="position: fixed; bottom: 2rem; right: 2rem;" mat-fab color="primary">
+  <mat-icon>add-circle</mat-icon>
+</button>
