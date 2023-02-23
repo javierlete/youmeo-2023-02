@@ -5,10 +5,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppMaterialModule } from './app-material.module';
+import { ListadoComponent } from './componentes/listado/listado.component';
+import { DetalleComponent } from './componentes/detalle/detalle.component';
+import { FormularioComponent } from './componentes/formulario/formulario.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ListadoComponent,
+    DetalleComponent,
+    FormularioComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,15 @@
+<mat-card routerLink="detalle/{{i}}" *ngFor="let i of [1,2,3,4,5]" class="example-card">
+    <mat-card-header>
+        <mat-card-title-group>
+            <mat-card-title>Shiba Inu</mat-card-title>
+            <mat-card-subtitle>Small</mat-card-subtitle>
+            <img mat-card-md-image src="https://material.angular.io/assets/img/examples/shiba2.jpg">
+        </mat-card-title-group>
+    </mat-card-header>
+    <mat-card-actions>
+        <button style="width: 100%" routerLink="/detalle/{{i}}" mat-raised-button color="primary">VER</button>
+    </mat-card-actions>
+</mat-card>
+<button routerLink="/formulario" style="position: fixed; bottom: 2rem; right: 2rem;" mat-fab color="primary">
+    <mat-icon>add-circle</mat-icon>
+</button>
