@@ -8,6 +8,7 @@ import { AppMaterialModule } from './app-material.module';
 import { ListadoComponent } from './componentes/listado/listado.component';
 import { DetalleComponent } from './componentes/detalle/detalle.component';
 import { FormularioComponent } from './componentes/formulario/formulario.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { FormularioComponent } from './componentes/formulario/formulario.compone
     AppRoutingModule,
     BrowserAnimationsModule,
     AppMaterialModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
