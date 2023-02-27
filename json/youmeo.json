@@ -1,0 +1,22 @@
+{
+    "videos": [
+        {
+            "id": 1,
+            "titulo": "Superman Awakens",
+            "url": "https://www.youtube.com/embed/FDdpBNZHdFw",
+            "descripcion": "Hecho por fans con Unreal Engine 5"
+        },
+        {
+            "id": 2,
+            "titulo": "Marty McFly",
+            "url": "https://www.youtube.com/embed/p1YzOI3IsTQ",
+            "descripcion": "Como toca realmente la guitarra"
+        },
+        {
+            "id": 3,
+            "titulo": "El coche fantástico",
+            "url": "https://www.youtube.com/embed/uEumyswVJFQ",
+            "descripcion": "Super persecución"
+        }
+    ]
+}
