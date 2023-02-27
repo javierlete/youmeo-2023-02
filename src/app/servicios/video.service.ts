@@ -19,4 +19,8 @@ export class VideoService {
   obtenerPorId(id: number): Observable<Video> {
     return this.http.get<Video>(URL + id);
   }
+
+  borrar(id: number): Observable<any> {
+    return this.http.delete<any>(URL + id);
+  }
 }

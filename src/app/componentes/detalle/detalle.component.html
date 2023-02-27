@@ -16,6 +16,6 @@
     </mat-card-content>
     <mat-card-actions>
         <button routerLink="/formulario/{{video.id}}" mat-raised-button color="primary">Editar</button>
-        <button routerLink="/listado" mat-raised-button color="warn">Borrar</button>
+        <button (click)="borrar(video.id)" mat-raised-button color="warn">Borrar</button>
     </mat-card-actions>
 </mat-card>
