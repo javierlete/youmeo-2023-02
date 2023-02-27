@@ -9,6 +9,7 @@ import { ListadoComponent } from './componentes/listado/listado.component';
 import { DetalleComponent } from './componentes/detalle/detalle.component';
 import { FormularioComponent } from './componentes/formulario/formulario.component';
 import { HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { HttpClientModule } from '@angular/common/http';
     AppRoutingModule,
     BrowserAnimationsModule,
     AppMaterialModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

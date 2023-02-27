@@ -1,5 +1,3 @@
-
-
 <mat-card *ngIf="video">
     <mat-card-header>
         <div mat-card-avatar>
@@ -17,7 +15,7 @@
         </p>
     </mat-card-content>
     <mat-card-actions>
-        <button routerLink="/formulario" mat-raised-button color="primary">Editar</button>
+        <button routerLink="/formulario/{{video.id}}" mat-raised-button color="primary">Editar</button>
         <button routerLink="/listado" mat-raised-button color="warn">Borrar</button>
     </mat-card-actions>
 </mat-card>

@@ -1,21 +1,28 @@
 <p style="margin-top: 2em">
     <mat-form-field style="width: 100%" appearance="fill">
-        <mat-label>Nombre</mat-label>
-        <input matInput>
+        <mat-label>Título</mat-label>
+        <input [(ngModel)]="video.titulo" matInput>
         <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
     </mat-form-field>
 </p>
 <p>
     <mat-form-field style="width: 100%" appearance="fill">
         <mat-label>Descripción</mat-label>
-        <input matInput>
+        <input [(ngModel)]="video.descripcion" matInput>
         <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
     </mat-form-field>
 </p>
 <p>
     <mat-form-field style="width: 100%" appearance="fill">
         <mat-label>URL</mat-label>
-        <input matInput>
+        <input [(ngModel)]="video.url" matInput>
+        <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+    </mat-form-field>
+</p>
+<p>
+    <mat-form-field style="width: 100%" appearance="fill">
+        <mat-label>Miniatura</mat-label>
+        <input [(ngModel)]="video.miniatura" matInput>
         <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
     </mat-form-field>
 </p>
