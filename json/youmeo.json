@@ -4,18 +4,21 @@
             "id": 1,
             "titulo": "Superman Awakens",
             "url": "https://www.youtube.com/embed/FDdpBNZHdFw",
+            "miniatura": "https://img.youtube.com/vi/FDdpBNZHdFw/0.jpg",
             "descripcion": "Hecho por fans con Unreal Engine 5"
         },
         {
             "id": 2,
             "titulo": "Marty McFly",
             "url": "https://www.youtube.com/embed/p1YzOI3IsTQ",
+            "miniatura": "https://img.youtube.com/vi/p1YzOI3IsTQ/0.jpg",
             "descripcion": "Como toca realmente la guitarra"
         },
         {
             "id": 3,
             "titulo": "El coche fantástico",
             "url": "https://www.youtube.com/embed/uEumyswVJFQ",
+            "miniatura": "https://img.youtube.com/vi/uEumyswVJFQ/0.jpg",
             "descripcion": "Super persecución"
         }
     ]
