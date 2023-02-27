@@ -1,0 +1,21 @@
+[mat-card-avatar] img {
+    width: 3rem;
+}
+
+.aspecto {
+    position: relative;
+    width: 100%;
+    height: 0;
+}
+
+.aspecto iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+._16x9 {
+    padding-bottom: 56.25%;
+}
