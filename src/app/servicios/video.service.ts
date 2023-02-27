@@ -20,6 +20,14 @@ export class VideoService {
     return this.http.get<Video>(URL + id);
   }
 
+  insertar(video: Video): Observable<Video> {
+    return this.http.post<Video>(URL, video);
+  }
+
+  modificar(video: Video): Observable<Video> {
+    return this.http.put<Video>(URL + video.id, video);
+  }
+
   borrar(id: number): Observable<any> {
     return this.http.delete<any>(URL + id);
   }
